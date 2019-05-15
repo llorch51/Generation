@@ -1,0 +1,9 @@
+{
+	"nombre":"Amy",
+	"apellidoPaterno":"Luis",
+	"apellidoMaterno":"Martinez",
+	"domicilio":"Zapopan",
+	"edad":33,
+	"sexo":"femenino",
+	"estatura":1.60
+}
