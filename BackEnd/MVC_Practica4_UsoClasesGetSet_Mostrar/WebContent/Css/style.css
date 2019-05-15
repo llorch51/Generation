@@ -1,0 +1,24 @@
+header{
+    padding: 15px;
+    font-size: 50px;
+    text-align: center;
+    color: blueviolet;
+    background-color: black;
+    outline-style: solid;
+    outline-color: gray;
+    
+}
+#box1,#box2,#box3,#box4{
+    margin: 10px;
+    padding: 10px;
+    border: purple 2px solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: lightpink;
+}
+#btnenviar{
+    padding: 10px;
+}
+.container{
+    padding: 15px;
+    background-color: darksalmon;
+}

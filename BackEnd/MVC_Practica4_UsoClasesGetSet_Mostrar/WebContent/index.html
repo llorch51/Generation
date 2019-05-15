@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1>Datos Personales</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form action="DatosPersonalesServlet" method="GET">
+            <div class="row" id="box1">
+
+                <div class="form-group">
+                    <p>
+                        <label for="txtNombre">Nombre: </label>
+                        <input type="text" name="txtNombre" id="txtNombre" class="form-control" placeholder="Chuchita">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <label for="txtApellidoPat">Apellido Paterno: </label>
+                        <input type="text" name="txtApellidoPat" id="txtApellidoPat" class="form-control"
+                            placeholder="Gutiérrez">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <label for="txtApellido">Apellido Materno: </label>
+                        <input type="text" name="txtApellidoMat" id="txtApellidoMat" class="form-control"
+                            placeholder="Gutiérrez">
+                    </p>
+                </div>
+            </div>
+            <!--*******************************************************************-->
+            <div class="row" id="box2">
+                <div class="form-group">
+                    <p>
+                        Sexo:
+                    </p>
+                    <div class="radio">
+                        <input type="radio" id="rdbMasc" name="rdbSexo" class="radio-inline" value="Hombre">
+                        <label for="rdbMasc">Hombre</label>
+                        
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="rdbFem" name="rdbSexo" class="radio-inline" value="Mujer">
+                        <label for="rdbFem">Mujer</label>
+                        
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="rdbOtro" name="rdbSexo" class="radio-inline" value="Otro">
+                        <label for="rdbOtro">Dragón</label>
+                        
+                    </div>
+                </div>
+            </div>
+            <!--********************************************************************************p-->
+            <div class="row" id="box3">
+                <div class="form-group">
+                    <p>
+                        <label for="txtEdad">Edad: </label>
+                        <input type="text" name="txtEdad" id="txtEdad" class="form-control"
+                            placeholder="como Mathusalen">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <label for="txtEstatura">Estatura: </label>
+                        <input type="text" name="txtEstatura" id="txtEstatura" class="form-control" placeholder="en cm">
+                    </p>
+                </div>
+
+
+            </div>
+            <!--**********************************************************************************-->
+            <div class="row" id="box4">
+                <div class="form-group">
+                    <p>
+                        Mascotas
+                    </p>
+                    <div class="form-check">
+                        <input type="checkbox" id="chkMasCAT" name="chkMas">
+                        <label for="chkMasCAT" class="form-check-label">Gato</label>
+                        
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="chkMasDOG" name="chkMas">
+                        <label for="chkMasDOG" class="form-check-label">Perro</label>
+                        
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="chkMasPEZ" name="chkMas">
+                        <label for="chkMasPEZ" class="form-check-label">Peces</label>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="btnEnviar">
+                <p>
+                    <input class="btn btn-primary" type="submit" value="Enviar">
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="Script/script.js"></script>
+</body>
+
+</html>
