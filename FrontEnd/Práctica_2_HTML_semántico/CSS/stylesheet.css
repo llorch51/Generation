@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+header{
+    background-color: black;
+}
+nav{
+    background-color: green;
+}
+aside{
+    background-color: yellow;
+}
+section{
+    background-color: chocolate
+}
+article{
+    background-color: pink;
+}
+footer{
+    background-color: blue
+}

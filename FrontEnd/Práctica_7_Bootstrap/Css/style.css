@@ -1,0 +1,74 @@
+body{
+    background-image: url("../Images/qqq.jpg");
+    background-repeat: repeat-y;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+header{
+    background-image: url("../Images/forest2.jpg");
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    /*border-radius: 25px 25px;*/
+    box-shadow: 5px 5px 3px 1px #999;
+    outline-style: solid;
+    outline-color: gray;
+    text-shadow: 3px 2px grey;
+}
+#simb2{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.container{
+    margin-top: 10px;
+    outline-style: solid;
+    outline-color: red;
+}
+ul{
+    font-size: 20px;
+    display: inline;
+    list-style: none; 
+    text-align: left; 
+}
+a:link{
+    color:gray;
+}
+a:hover{
+    color:whitesmoke;
+}
+p{
+    text-align: justify;
+}
+.img-responsive{
+    width: 200px;
+    height: 200px; 
+}
+footer{
+    text-align: right;
+    color: white;
+    text-shadow: 3px 2px grey;
+}
+#uno, #dos, #tres{
+    outline-style: solid;
+    outline-color:black;
+    margin: 15px 15px;
+    padding-top: 10px;
+}
+ul li{
+    margin: 5px;
+}
+#prim{
+    border:green 2px  solid;
+    margin: 5px;
+    
+}
+#seg{
+    padding-top: 10px;
+    border:orange 2px  solid;
+    margin: 5px;
+}
+
+

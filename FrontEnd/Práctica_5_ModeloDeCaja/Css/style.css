@@ -1,0 +1,29 @@
+h1{
+    color: red;
+    border-color: red;
+    border-width: 20px;
+    border-style: dashed;
+    text-align: center;
+    background-color: black;
+}
+p{
+    border-color: blue;
+    border-width: 20px;
+    border-style: groove;
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+    color: whitesmoke;
+}
+body{
+    border: yellow 20px solid;
+    background-color: blueviolet;
+    background-image: url("/Images/GallinaNegra.jpg");
+}
+div{
+    border: green 20px solid;
+    background-color: pink;
+}
+p.primeros{
+    color: yellow;
+}

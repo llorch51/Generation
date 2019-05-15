@@ -1,0 +1,12 @@
+[
+    {"_comment":"arreglo de 8 objetos"},
+    {"ranger rojo":{"peso":130.0,"poder":"saltar"}},
+    {"ranger blanco":{"peso":89,"poder":"hacha"}},
+    {"Sailor Moon":{"mascota":"gato","poder":"luna"}},
+    {"Sailor Mars":{"mascota":"perrito","poder":"marte"}},
+    {"pegaso":{"nacionalidad":"grecia"}},
+    {"Cisne":{"nacionalidad":"america"}},
+    {"andromeda":{}},
+    {"Piscis":{}}
+
+]

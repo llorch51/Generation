@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+           <p class="h1">Datos Personales</p>
+       </div>
+       <div class="row">
+           <form action="" method="post">
+               <div class="form-group">
+                   <p>
+                       <label for="txtNombre">Nombre</label>
+                       <input type="text" id="txtNombre" name="txtNombre" class="form-control">
+                   </p>
+               </div>
+               <div class="form-group">
+                   <p>
+                       <label for="txtApellido">Apellido</label>
+                       <input type="text" id="txtApellido" name="txtApellido" class="form-control">
+                   </p>
+               </div>
+               <div class="form-group">
+                   <p>
+                       <input type="button" value="Dale click" class="btn btn-default">
+                       <input type="button" value="Dale click" class="btn btn-primary">
+                       <input type="submit" value="Dale click" class="btn btn-warning">
+                        <input type="submit" value="Dale click" class="btn btn-danger">
+                   </p>
+               </div>
+               <div class="form-group">
+                   <p>Selecciona una pizza</p>
+                   <div class="radio">
+                       <input type="radio" id="rdbPizzaPepperoni" name="rdbPizzas">
+                       <label for="rdbPizzaPepperoni">Pepperoni</label>
+                       </input>
+                   </div>
+                   <div class="radio">
+                      <input type="radio" id="rdbPizzaMexicana" name="rdbPizzas"> <label for="rdbPizzaMexicana">Mexicana</label>
+                      </input> 
+                   </div>
+                   <div class="radio">
+                    <input type="radio" id="rdbPizzaHawaiana" name="rdbPizzas"> <label for="rdbPizzaHawaiana">Hawaiana </label>
+                    </input>
+                    </div>
+               </div>
+           </form>
+        </div>
+           <div class="row">
+             <table>
+                 <thead>
+                     <tr>
+                         <th>ID</th>
+                         <th>Nombre</th>
+                         <th>Domicilio</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>1</td>
+                         <td>Pancho</td>
+                         <td>25666</td>
+                     </tr>
+                     <tr>
+                         <td>2</td>
+                         <td>Paco</td>
+                         <td> </td>
+                     </tr>
+                     <tr>
+                         <td><input type="text" id="txtId" name="txtId"></td>
+                         <td><input type="text" id="txtNombre" name="txtNombre"></td>
+                         <td><input type="text" name="txtSalario" id="txtSalario"></td>
+                     </tr>
+                 </tbody>
+             </table>
+           </div> 
+        <div class="row btndropdown">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Click!!</button>
+                <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                </div>
+            </div>
+       </div>
+       <div class="row dropdownboots">
+            <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">HTML</a></li>
+                      <li><a href="#">CSS</a></li>
+                      <li><a href="#">JavaScript</a></li>
+                    </ul>
+                  </div>                  
+       </div>
+   </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="Script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 25px 25px;
+    box-shadow: 5px 5px 3px 1px #999
+}
+body{
+    background-image: url("../Images/GallinaNegra.jpg");
+    background-size: 400px 450px;
+    font-size: 30px;
+    color: red;
+}
+ul{
+    border-color: red;
+    border-width: 20px;
+    font-size: 30px;
+    display: inline;
+    /*list-style: none;*/
+    margin-left: 10px;
+}
+li{
+    
+    font-size: 30px;
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 10px 10px;
+}
+#navigation{
+    float:right;
+}
+p{
+    text-align: justify;
+}
+a:link{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+

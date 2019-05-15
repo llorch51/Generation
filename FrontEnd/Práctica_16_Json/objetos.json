@@ -1,0 +1,21 @@
+
+{
+    "_comment":"Arreglo de objetos",
+    "películas":{
+        "Terror":[
+            "feast","conjuro","chucky","jason"
+        ],
+        "documentales":[
+            "Cosmos","La tierra","inside job"
+        ]
+    },
+    "Canciones":{
+
+        "rock":[
+            "Ingrata","El ansioso","el golpazo"
+        ],
+        "electronica":[
+            "In out of love","minak","sonidito"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+h1{
+    color: red
+}
+/*.(punto) llama CLASE
+
+*/
+.parrafopar{
+    background-color: gray;
+}
+.parrafoimpar{
+    background-color:brown;
+}
+/*# llama ID
+*/
+#parrafo1{
+    text-align: center;
+}
+#parrafo3{
+    text-align: center;
+}

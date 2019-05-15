@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+    <h1>Alta de alumnos</h1>
+    </header>
+    <form action="destino.html" method="POST">
+        <p>
+            <label for="txtIdAlumno">ID Alumno</label>
+            <input type="text" name="txtIdAlumno" id="txtIdAlumno" placeholder="Número de cuenta"autofocus>
+        </p>
+        <p>
+            <label for="txtnombreAlumno">Nombre Alumno</label>
+            <input type="text" name="txtnombreAlumno" id="txtnombreAlumno" placeholder="Nombre del alumno"  autocomplete="on">
+        </p>
+        <p>
+            <label for="txtTelefono">Telefono</label>
+            <input type="tel" name="txtTelefono" id="txtTelefono" required>
+        </p>
+        <p>
+            <label for="txtEmail">Email</label>
+            <input type="email" name="txtEmail" id="txtEmail">
+        </p>
+        <p>
+            <label for="Fecha">Fecha</label>
+            <input type="datetime" name="datetime" id="Fecha">
+        </p>
+        <p>
+            <label for="txtfecha">Fecha</label>
+            <input type="date" name="txtfecha" id="txtfecha">
+        </p>
+        <p>
+
+            <datalist id="contacto">
+                <option value="chalala@hotmail.es" label="Empresa Chalala"></option>
+                <option value="llorch@hotmail.es" label="llorch"></option>
+            </datalist>
+            <input type="email" name="emailYo" id="emailYo" list="contacto">
+        </p>
+        
+        <datalist id="pizza">
+            <option value="hawaiana" label="hawaiana"></option>
+            <option value="peperonni" label="peperonni"></option>
+            <option value="mexicana" label="mexicana"></option>
+            <option value="tres quesos" label="tres quesos"></option>
+        </datalist>
+
+        <input type="radio" name="pizzas" id="pizzas" value="hawaiana" required>hawaiana<br>
+        <input type="radio" name="pizzas" id="pizzas" value="peperonni">peperonni<br>
+        <input type="radio" name="pizzas" id="pizzas" value="mexicana">mexicana<br>
+        <input type="radio" name="pizzas" id="pizzas" value="tres quesos">tres quesos<br>
+
+        <p>
+        <input type="submit" value="Clic aquiii!!">
+        </p>
+    </form>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
