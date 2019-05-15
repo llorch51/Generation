@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(192, 6, 6);
+    background-image: url("../Images/wall.jpg");
+    background-position: center;
+}
+
+h1 {
+    color: whitesmoke;
+    /* background-color: rgb(143, 4, 4); */
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(224, 224, 224, 0.13), 0 0 5px rgba(206, 206, 206, 0.89);
+}
+
+form {
+    color: white;
+    text-shadow: 3px 2px black;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 26px 17px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: 0px 0px 26px 17px rgba(0, 0, 0, 0.74);
+    box-shadow: 0px 0px 26px 17px rgba(0, 0, 0, 0.74);
+    margin-top: 50px;
+}
+
+.form-actions {
+    margin: 0;
+    /* background-color: transparent; */
+    text-align: center;
+}
